@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "ERROR 07: Bread entered. Charcoal returned. I have one function and I have failed at it.";
+  "ERROR 07: Your bread went in bread and came out charcoal. I am a toaster. This is the one job I had.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
